@@ -2,6 +2,22 @@
 
 A streaming toy payments engine written in Rust. Reads a series of transactions from a CSV file, updates client accounts, handles disputes and chargebacks, and outputs the final account state as CSV.
 
+## Prerequisites
+
+- Rust toolchain installed via `rustup`
+- Install command:
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+- Verify installation:
+
+```bash
+cargo --version
+rustc --version
+```
+
 ## Build & Run
 
 ```bash
